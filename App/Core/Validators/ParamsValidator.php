@@ -72,7 +72,7 @@ class ParamsValidator extends CustomRulesValidator
                 break;
 
                 case 'captcha': 
-                    $captcha = new \Anhskohbo\NoCaptcha\NoCaptcha('6LcGCNQaAAAAAH2-VnXSTQuEzCHsCpfUUaiLHXAJ', '6LcGCNQaAAAAAKQ40kYiiuoFUOBERDma84OyJPOW');
+                    $captcha = new \Anhskohbo\NoCaptcha\NoCaptcha('', '');
                     if(!$captcha->verifyResponse($data[$paramName]))
                         return self::makeError($paramName, "Es necesario validar el captcha");
                 break;
