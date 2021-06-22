@@ -1,6 +1,6 @@
 {
-    "name": "damian/silmaril",
-    "description": "Framework de desarrollo PHP y React",
+    "name": "damian/quetzal",
+    "description": "Framework de implementacion del protocolo Camarena con PHP",
     "type": "project",
     "license": "MIT",
     "authors": [
