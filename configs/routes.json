@@ -1,0 +1,44 @@
+{
+    "public-assets": {
+        "controller": "\\App\\Controllers\\AssetsController",
+        "function": "assets",
+        "access": "public",
+        "sub-routes": {
+            "css": {
+                "function": "css",
+                "permissions": "no"
+            },
+            "js": {
+                "function": "js",
+                "permissions": "no"
+            },
+            "imagenes": {
+                "function": "imagenes",
+                "permissions": "no"
+            },
+            "app": {
+                "function": "app",
+                "permissions": "no"
+            },
+            "utils": {
+                "function": "utils",
+                "permissions": "no"
+            }
+        }
+    },
+    "sw": {
+        "controller": "\\App\\Controllers\\AssetsController",
+        "function": "sw",
+        "access": "public"
+    },
+    "manifest.json": {
+        "controller": "\\App\\Controllers\\AssetsController",
+        "function": "manifest",
+        "access": "public"
+    },
+    "/": {
+        "controller": "\\App\\Controllers\\PagesController",
+        "function": "home",
+        "access": "public"
+    }
+}

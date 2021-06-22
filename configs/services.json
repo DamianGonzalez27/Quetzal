@@ -1,0 +1,8 @@
+{
+    "mail": {
+        "class": "\\App\\Services\\Mail",
+        "construct": {
+            "dir": "../views/"
+        }
+    }
+}

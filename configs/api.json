@@ -1,0 +1,11 @@
+{
+  "pruebas": {
+    "class": "\\App\\Endpoints\\Pruebas",
+    "methods": {
+      "prueba": {
+        "function": "inicio",
+        "access": "public"
+      }
+    }
+  }
+}

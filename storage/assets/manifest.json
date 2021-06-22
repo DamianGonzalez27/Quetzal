@@ -1,0 +1,29 @@
+{
+    "short_name": "H&L",
+    "name": "Hamilton And Lovelace",
+    "start_url": "/",
+    "background_color":"#3498db",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#3498db",
+    "icons": [
+        {
+            "src": "/public-assets/imagenes?path=logo_mascota.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/public-assets/imagenes?path=logo_mascota.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/public-assets/imagenes?path=logo_mascota.png",
+            "type": "image/png",
+            "sizes": "940x788",
+            "purpose": "any maskable"
+        }
+    ]
+}
